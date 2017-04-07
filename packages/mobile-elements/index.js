@@ -1,7 +1,10 @@
-var React = require('react');
+import React from 'react';
+import { Text } from 'react-native';
+import { BaseButton } from 'base-elements';
 
-module.exports = {
-  background: {
-    backgroundColor: 'rgb(255,0,0)'
+
+export class MobileButton extends BaseButton {
+  render() {
+    return <Text {...this.props} />;
   }
-};
+}

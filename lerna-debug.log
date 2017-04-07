@@ -4,7 +4,7 @@ lerna(verbose) GitUtilities.isInitialized    (".") => true
 lerna(verbose) FileSystemUtilities.existsSync("./VERSION")
 lerna(verbose) FileSystemUtilities.existsSync("./VERSION") => false
 lerna(error)   Errored while collecting packages and package graph
-    JSONError: Trailing comma in object at 15:1 in packages/web-elements/package.json
+    JSONError: Trailing comma in object at 12:1 in packages/web-elements/package.json
     }
     ^
         at module.exports (/usr/local/lib/node_modules/lerna/node_modules/parse-json/index.js:27:17)

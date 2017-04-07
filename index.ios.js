@@ -12,15 +12,13 @@ import {
   View
 } from 'react-native';
 
-import { background } from './packages/mobile-elements';
+import { background, MobileButton } from './packages/mobile-elements';
 
 export default class lerna_cross extends Component {
   render() {
     return (
       <View style={[styles.container, background]}>
-        <Text style={styles.welcome}>
-          Welcome to React Native!
-        </Text>
+        <MobileButton/>
         <Text style={styles.instructions}>
           To get started, edit index.ios.js
         </Text>

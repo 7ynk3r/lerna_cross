@@ -1,7 +1,21 @@
 var React = require('react');
+var { BaseButton, BaseButtonColor } = require('base-elements');
+
+// var WebButton = React.createClass({
+//   render: function() {
+//     return
+//     // return (<p>{'hellow'}</p>);
+//   }
+// });
+
+const WebButton = React.createElement(
+  'h1',
+  {},
+  'MyButton!!!'
+);
+
 
 module.exports = {
-  background: {
-    backgroundColor: 'rgb(255,0,0)'
-  }
+  WebButton: WebButton,
+  WebButtonColor: BaseButtonColor ,
 };
