@@ -1,6 +1,6 @@
 import React from 'react';
 import { Text } from 'react-native';
-import { BaseButton } from 'base-elements';
+import { BaseButton, BaseButtonColor } from 'base-elements';
 
 
 export class MobileButton extends BaseButton {
@@ -8,3 +8,5 @@ export class MobileButton extends BaseButton {
     return <Text {...this.props} />;
   }
 }
+
+export const MobileButtonColor = BaseButtonColor;

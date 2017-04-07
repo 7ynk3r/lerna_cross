@@ -1,5 +1,5 @@
 {
-  "name": "elements",
+  "name": "mobile-elements",
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
