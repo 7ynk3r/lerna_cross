@@ -1,5 +1,5 @@
 var React = require('react');
-var { BaseButton, BaseButtonColor } = require('base-elements');
+var { BaseButton, BaseButtonColor } = require('@m/base-elements');
 
 // var WebButton = React.createClass({
 //   render: function() {

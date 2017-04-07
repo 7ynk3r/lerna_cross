@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
-    "base-elements": "*"
+    "@m/base-elements": "*"
   },
   "peerDependencies": {
     "react": "^15.4.2",

@@ -1,5 +1,5 @@
 {
-  "name": "base-elements",
+  "name": "@m/base-elements",
   "version": "1.0.0",
   "main": "index.js",
   "peerDependencies": {
