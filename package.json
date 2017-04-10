@@ -10,7 +10,8 @@
   "dependencies": {
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
-    "react-native": "^0.42.1"
+    "react-native": "^0.42.1",
+    "react-native-web": "^0.0.81"
   },
   "devDependencies": {
     "babel-jest": "19.0.0",
